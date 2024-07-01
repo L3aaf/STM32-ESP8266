@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\Start -I.\Library -I.\User -I.\System -I.\Hardware --no-multibyte-chars
+-I "D:\stm32project\1-2 OLED+DHT11+´®¿Ú\RTE"
+-I D:\keil5\keil5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+-I D:\keil5\keil5\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o .\objects\stm32f10x_dma.o --omf_browse .\objects\stm32f10x_dma.crf --depend .\objects\stm32f10x_dma.d --feedback ".\Objects\Project.fed" "Library\stm32f10x_dma.c"
